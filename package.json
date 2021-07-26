@@ -1,0 +1,37 @@
+{
+  "name": "get-pokedex-kr",
+  "version": "1.0.0",
+  "description": "get pokedex kr",
+  "main": "src/intex.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkJun/get-pokedex-kr.git"
+  },
+  "keywords": [
+    "pokemon",
+    "pokedex",
+    "korean"
+  ],
+  "author": "Juntai Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rkJun/get-pokedex-kr/issues"
+  },
+  "homepage": "https://github.com/rkJun/get-pokedex-kr#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.1.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "puppeteer": "^10.1.0"
+  }
+}
