@@ -65,6 +65,6 @@ import { Pokedex } from './interfaces';
 
   fs.writeFileSync(outputFileName, JSON.stringify(pokedexList, null, 2));
 
-  console.log('successfully finished.');
+  console.log('successfully finished. total pokedex count : ', pokedexList.length);
   await browser.close();
 })();
